@@ -1,6 +1,4 @@
-
 import * as ko from "knockout";
-
 class list_item{
     constructor(public heading: string, public paragraph : string){}
 }
