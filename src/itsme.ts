@@ -10,7 +10,7 @@ class social_link{
 class itsme{
 
     goodname: string = "ASAD NOMAN";
-    bio: string = "Man with love for the back-end, spend 12-15 hours coding, I fix things";
+    bio: string = "Giant Mind, Man with love for the back-end, spend 12-15 hours coding every week, I fix things";
     items : list_item[] = [
         new list_item("Marvel Movies really draw my attention",
         ":) :) :) :)"),
