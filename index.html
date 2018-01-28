@@ -1,88 +1,68 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Asad Noman</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-    <link rel="alternate" type="application/atom+xml" href="atom.xml">
-    <link rel="stylesheet" href="index.css">
-   
-  </head>
-  <body>
-    <div class="Layout">
-      <div class="Layout-nav">
-        <div class="Profile">
-          <a class="Profile-avatar" href="hero.png"></a>
-          <h1 class="Profile-name Heading Heading--medium"><a href="/">Asad Noman</a></h4>
-          <p class="Profile-role">Lives to Code</a></p>
 
-          <ul class="Profile-links">
-            <a class="Profile-link Profile-twitter-link" href="https://twitter.com/mrasadnoman">Twitter</a>
-            <a class="Profile-link Profile-github-link" href="https://github.com/asadnoman">GitHub</a>
-            <a class="Profile-link Profile-facebook-link" href="facebook.com/mrasadnoman">Facebook</a>
+<head>
+  <meta charset="utf-8">
+  <title>Asad Noman</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            <a class="Profile-link Profile-linkedin-link" href="linkedin.com/mrasadnoman">LinkedIn</a>
-          </ul>
+  <link rel="stylesheet" href="index.css">
 
-      </div>      </div>
-      <div class="Layout-main"><div class="Summaries">
-      <code> HI THERE,</br>
-      		You can check out my repositories
-      		from my GitHub.</br>
-      		Also, You can follow the following articles.
-      		</code>
-      <!--
-  <ol class="Summaries-list">
-    <li class="Summaries-list-item">
-      <div class="Summary">
-        <h3 class="Summary-title Heading Heading--medium">
-          <a class="Summary-link" href="/intruder-cracking-wifi-networks-in-node">Intruder: How to crack Wi-Fi networks in Node.js</a>
-        </h3>
-        <time class="Summary-date" datetime="2015-09-25T00:00:00.000Z">September 2015</time>
-        <div class="Summary-excerpt Prose Prose--medium">
-          <p>I’m going to explain how to use <a href="https://github.com/stevenmiller888/intruder">Intruder</a> to crack a Wi-Fi network in Node.js. Then, I’m going to explain how it works at a high-level.</p>
+</head>
 
-        </div>
-      </div>    </li>
-    <li class="Summaries-list-item">
-      <div class="Summary">
-        <h3 class="Summary-title Heading Heading--medium">
-          <a class="Summary-link" href="/mind-how-to-build-a-neural-network-part-2">Mind: How to Build a Neural Network (Part Two)</a>
-        </h3>
-        <time class="Summary-date" datetime="2015-08-14T00:00:00.000Z">August 2015</time>
-        <div class="Summary-excerpt Prose Prose--medium">
-          <p><em>In this second part on learning how to build a neural network, we will dive into the implementation of a flexible library in JavaScript. In case you missed it, here is <a href="/mind-how-to-build-a-neural-network">Part One</a>, which goes over what neural networks are and how they operate.</em></p>
+<body>
+  <div class="Layout">
+    <div class="Layout-nav">
+      <div class="Profile">
+        <a class="Profile-avatar"></a>
+        <h4 class="Profile-name Heading Heading--medium">
+          <a href="/">
+            <span data-bind="text: goodname"></span>
+          </a>
+        </h4>
+        <p class="Profile-role">
+          <span data-bind="text: bio"></span>
+        </p>
 
-        </div>
-      </div>    </li>
-    <li class="Summaries-list-item">
-      <div class="Summary">
-        <h3 class="Summary-title Heading Heading--medium">
-          <a class="Summary-link" href="/mind-how-to-build-a-neural-network">Mind: How to Build a Neural Network (Part One)</a>
-        </h3>
-        <time class="Summary-date" datetime="2015-08-11T00:00:00.000Z">August 2015</time>
-        <div class="Summary-excerpt Prose Prose--medium">
-          <p><a href="https://en.wikipedia.org/wiki/Artificial_neural_network">Artificial neural networks</a> are statistical learning models, inspired by biological neural networks (central nervous systems, such as the brain), that are used in <a href="https://en.wikipedia.org/wiki/List_of_machine_learning_concepts">machine learning</a>. These networks are represented as systems of interconnected “neurons”, which send messages to each other. The connections within the network can be systematically adjusted based on inputs and outputs, making them ideal for supervised learning.</p>
+        <ul class="Profile-links">
+          <a class="Profile-link Profile-twitter-link" href="https://twitter.com/mrasadnoman">Twitter</a>
+          <a class="Profile-link Profile-github-link" href="https://github.com/asadnoman">GitHub</a>
+          <a class="Profile-link Profile-facebook-link" href="facebook.com/mrasadnoman">Facebook</a>
+          <a class="Profile-link Profile-linkedin-link" href="linkedin.com/mrasadnoman">LinkedIn</a>
+        </ul>
 
-        </div>
-      </div>    </li>
-    <li class="Summaries-list-item">
-      <div class="Summary">
-        <h3 class="Summary-title Heading Heading--medium">
-          <a class="Summary-link" href="/remembering-shift-vs-unshift">Remembering &#x60;.shift()&#x60; and &#x60;.unshift()&#x60;</a>
-        </h3>
-        <time class="Summary-date" datetime="2015-05-22T00:00:00.000Z">May 2015</time>
-        <div class="Summary-excerpt Prose Prose--medium">
-          <p>If you’re like me, you forget the difference between <code>.shift()</code> and <code>.unshift()</code> all the time. Here’s a little trick to remembering them. Picture a keyboard. Now think of that keyboard as an array, with the left side of the keyboard corresponding to the front of the array, and the right side of the keyboard corresponding to the back of the array. Imagine yourself pressing down the left <code>shift</code> key. Think of this as “removing” it from the keyboard (array). Similarly, the <code>shift</code> function removes an element from the front of the array. Now picture yourself removing your finger from the left <code>shift</code> key, and it comes back up. You just “added” (or unshifted) an element to the array.</p>
-
-        </div>
-      </div>    </li> 
-  </ol>-->
-</div>
       </div>
     </div>
-    <script src="/index.js"></script>
-  </body>
+    <div class="Layout-main">
+      <div class="Summaries">
+
+        <ol data-bind="foreach: items" class="Summaries-list">
+
+          <li class="Summaries-list-item">
+            <div class="Summary">
+              <h3 class="Summary-title Heading Heading--medium">
+                <a class="Summary-link" href="/" data-bind="text: heading"></a>
+              </h3>
+              <!-- <time class="Summary-date" datetime="2015-09-25T00:00:00.000Z">September 2015</time>-->
+              <div class="Summary-excerpt Prose Prose--medium">
+                <p>
+                  <span data-bind="text: paragraph"></span>
+                </p>
+
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <script src="/index.js"></script>
+  <script src="./externals/require.js"></script>
+  <script src="./built/require-config.js"></script>
+  <script>
+    require(["built/itsme"]);
+  </script>
+</body>
+
 </html>
