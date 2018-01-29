@@ -1729,17 +1729,27 @@ html {
 
   .Layout-main {
     max-width: 660px;
-    margin: 0;
+    margin-left: 0px;
   }
 
   .Layout-nav {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: 220px;
-    margin-top: -60px;
-    max-width: 300px;
+    top: 0%;
+    right: 0%;
+    margin-left: 0px;
+    max-width: 370px;
+    background-color: #000;
+    background-image: url('res/profile/images/cover.png');
+    height: 100%;
+    padding-top: 15%;
+    
   }
+  .Profile-name{
+    color: #FCFBF7;
+  }
+
+  
+ 
 }
 
 /**
@@ -1805,7 +1815,7 @@ html {
 
 .bar {
   height: 2px;
-  background: #5CCC5C;
+  background: rgb(209, 3, 216);
   position: fixed;
   top: 0px;
   z-index: 99;
@@ -1900,6 +1910,8 @@ html {
 .Profile {
   text-align: center;
   margin-bottom: 30px;
+  margin-left: 20px; margin-right: 20px;
+
 }
 
 @media (min-width: 720px) {
@@ -1917,7 +1929,7 @@ html {
   width: 60px;
   height: 60px;
   border-radius: 60px;
-  background-image: url('res/profile/images/hero.png');
+  background: url('res/profile/images/hero.png');
   background-size: contain;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
 }
@@ -1942,12 +1954,13 @@ html {
  * Name & role.
  */
 
+
 .Profile-role {
   display: block;
   font-size: 18px;
   font-family: 'Freight Sans Small Caps', 'Verdana', 'Geneva', sans-serif;
-  text-transform: lowercase;
-  color: #A49581;
+  
+  color: rgb(172, 161, 140);
   margin-bottom: 20px;
 }
 
