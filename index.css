@@ -1865,7 +1865,10 @@ html {
 /**
  * Link.
  */
+.Summary-link{
+  color: #0366d6;
 
+}
 .Summary-external-link::after {
   content: attr(data-domain);
   font-size: 18px;
